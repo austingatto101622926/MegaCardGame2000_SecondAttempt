@@ -29,9 +29,8 @@ namespace MegaCardGame2000_ClassLibrary
 
             foreach (NonPlayerCharacter Enemy in EnemyTypes)
             {
-                int index = (Enemies.Count == 0) ? 0 : RNG.GenIntInRange(0, Enemies.Count);
-
-                Enemies.Insert(index, Enemy);
+                int index = RNG.GenIntInRange(0, Enemies.Count);
+                Enemies.Insert(index, new NonPlayerCharacter(Enemy.EnemyType,Enemy.MaxHealth,Enemy.BaseDamage));
             }
         }
 

@@ -11,11 +11,11 @@ namespace MegaCardGame2000_ClassLibrary
         {
             if (RNG.Roll_1_In_X(2))
             {
-                return baseDamage * 4;
+                return BaseDamage * 4;
             }
             else
             {
-                TakeDamage(baseDamage);
+                TakeDamage(BaseDamage);
                 return 0;
             }
         }

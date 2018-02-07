@@ -4,7 +4,7 @@ namespace MegaCardGame2000_ClassLibrary
 {
     public abstract class Character
     {
-        protected int baseDamage = 10;
+        public int BaseDamage { get; protected set; } = 10;
         private int _maxHealth;
         public int MaxHealth
         {
@@ -20,7 +20,7 @@ namespace MegaCardGame2000_ClassLibrary
 
         public int StandardAttack()
         {
-            return baseDamage;
+            return BaseDamage;
         }
     }
 }

@@ -11,7 +11,7 @@ namespace MegaCardGame2000_ClassLibrary
         {
             if (RNG.Roll_1_In_X(3))
             {
-                return baseDamage * 3;
+                return BaseDamage * 3;
             }
             else
             {
