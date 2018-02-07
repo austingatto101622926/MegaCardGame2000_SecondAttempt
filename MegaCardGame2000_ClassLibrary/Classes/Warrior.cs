@@ -9,7 +9,7 @@ namespace MegaCardGame2000_ClassLibrary
         public Warrior(string name) : base(name) { }
         public override int SpecialAttck()
         {
-            if (RandomNG.Roll_1_In_X(3))
+            if (RNG.Roll_1_In_X(3))
             {
                 return baseDamage * 3;
             }

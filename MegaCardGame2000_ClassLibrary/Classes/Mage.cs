@@ -9,7 +9,7 @@ namespace MegaCardGame2000_ClassLibrary
         public Mage(string name) : base(name) { }
         public override int SpecialAttck()
         {
-            if (RandomNG.Roll_1_In_X(2))
+            if (RNG.Roll_1_In_X(2))
             {
                 return baseDamage * 4;
             }

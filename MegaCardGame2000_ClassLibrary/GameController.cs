@@ -43,7 +43,7 @@ namespace MegaCardGame2000_ClassLibrary
             else
             {
                 Enemy = Deck.NextEnemy();
-                if (RandomNG.Roll_1_In_X(2))
+                if (RNG.Roll_1_In_X(2))
                 {
                     GameState = State.PlayerTurn;
                 }

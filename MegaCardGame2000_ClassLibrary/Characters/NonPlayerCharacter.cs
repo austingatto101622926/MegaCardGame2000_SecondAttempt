@@ -7,10 +7,11 @@ namespace MegaCardGame2000_ClassLibrary
     public class NonPlayerCharacter : Character
     {
         public string EnemyType;
-        public NonPlayerCharacter(string enemyType, int maxHealth)
+        public NonPlayerCharacter(string enemyType, int maxHealth, int baseDamage)
         {
             EnemyType = enemyType;
             MaxHealth = maxHealth;
+            this.baseDamage = baseDamage;
         }
     }
 }

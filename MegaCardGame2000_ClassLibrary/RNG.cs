@@ -4,9 +4,9 @@ using System.Text;
 
 namespace MegaCardGame2000_ClassLibrary
 {
-    public static class RandomNG
+    public static class RNG
     {
-        private static Random random = new Random();
+        private static Random random = new System.Random();
 
         public static bool Roll_1_In_X(int x)
         {
