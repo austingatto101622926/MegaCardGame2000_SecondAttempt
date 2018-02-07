@@ -11,7 +11,8 @@ namespace MegaCardGame2000_ClassLibrary
         {
             EnemyType = enemyType;
             MaxHealth = maxHealth;
-            this.BaseDamage = baseDamage;
+            BaseDamage = baseDamage;
         }
     }
 }
+ 

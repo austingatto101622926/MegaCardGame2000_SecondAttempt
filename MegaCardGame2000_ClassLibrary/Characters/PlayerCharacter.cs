@@ -13,6 +13,7 @@ namespace MegaCardGame2000_ClassLibrary
         public PlayerCharacter(string name)
         {
             Name = name;
+            BaseDamage = 10;
             MaxHealth = 50;
         }
     }
