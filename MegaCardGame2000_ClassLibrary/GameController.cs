@@ -63,6 +63,7 @@ namespace MegaCardGame2000_ClassLibrary
         public void ResolvePlayerTurn(int damage)
         {
             Enemy.TakeDamage(damage);
+            GameState = State.EnemyTurn;
         }
     }
 }
